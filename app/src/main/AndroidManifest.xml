@@ -6,7 +6,6 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -16,15 +15,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NowPlayingActivity"
-            android:label="Now playing"/>
-        <activity android:name=".ArtistsActivity"
-            android:label="Artists"/>
-        <activity android:name=".AlbumsActivity"
-            android:label="Albums"/>
-        <activity android:name=".PlaylistsActivity"
-            android:label="Playlists"/>
-        <activity android:name=".PodcastsActivity"
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="Now playing" />
+        <activity
+            android:name=".ArtistsActivity"
+            android:label="Artists" />
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="Albums" />
+        <activity
+            android:name=".PlaylistsActivity"
+            android:label="Playlists" />
+        <activity
+            android:name=".PodcastsActivity"
             android:label="Podcasts">
 
         </activity>
