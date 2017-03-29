@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical"
+    tools:context="com.example.android.mymusicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/nowplaying"
+        style="@style/CategoryStyle"
+        android:background="@color/category_nowplaying"
+        android:text="Now Playing" />
+
+    <TextView
+        android:id="@+id/artists"
+        style="@style/CategoryStyle"
+        android:background="@color/category_artists"
+        android:text="Artists" />
+
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/CategoryStyle"
+        android:background="@color/category_albums"
+        android:text="Albums" />
+
+
+    <TextView
+        android:id="@+id/playlists"
+        style="@style/CategoryStyle"
+        android:background="@color/category_playlists"
+        android:text="Playlists" />
+
+    <TextView
+        android:id="@+id/podcasts"
+        style="@style/CategoryStyle"
+        android:background="@color/category_podcasts"
+        android:text="Podcasts" />
+
+
+</LinearLayout>
