@@ -9,11 +9,12 @@
     android:orientation="vertical"
     tools:context="com.example.android.mymusicapp.MainActivity">
 
+
     <TextView
-        android:id="@+id/nowplaying"
+        android:id="@+id/playing"
         style="@style/CategoryStyle"
-        android:background="@color/category_nowplaying"
-        android:text="Now Playing" />
+        android:background="@color/category_playing"
+        android:text="Playing" />
 
     <TextView
         android:id="@+id/artists"
@@ -36,10 +37,10 @@
         android:text="Playlists" />
 
     <TextView
-        android:id="@+id/podcasts"
+        android:id="@+id/radio"
         style="@style/CategoryStyle"
-        android:background="@color/category_podcasts"
-        android:text="Podcasts" />
+        android:background="@color/category_radio"
+        android:text="Radio" />
 
 
 </LinearLayout>

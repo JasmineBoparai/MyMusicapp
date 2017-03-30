@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">MyMusicapp</string>
-</resources>
+    <string name="app_name">Musicapp</string>
+
+
+
+    <string name="albumsDescription">Activity shows lists of all albums you have on your phone.</string>
+    <string name="artistsDescription">Activity shows lists of all artists you have on your phone.</string>
+    <string name="playingDescription">Activity shows current song you have playing on your phone.</string>
+    <string name="playlistsDescription">Activity shows playlists you have on your phone.</string>
+    <string name="radioDescription">Activity shows radio stations you have on your phone.</string>
+
+
+    <string name="requirementHeader">Requirements</string>
+
+    <string name="albumsActivity">1) View all albums\n\n2) Show album information. \n\n3) Make each song clickable.</string>
+    <string name="artistsActivity">1) View all artists\n\n2) Show each artist information. \n\n3) Show all albums under each artists.</string>
+    <string name="playingActivity">1) View media player\n\n2) Show list of songs.</string>
+    <string name="playlistsActivity">1) View current playlists\n\n2) Show all songs in playlists.</string>
+    <string name="radioActivity">1) View all radio stations\n\n2) Show information of each radio station.</string>
+    </resources>
+

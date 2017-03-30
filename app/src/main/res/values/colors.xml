@@ -9,8 +9,11 @@
     <!-- Background color for app -->
     <color name="black_background">#212121</color>
 
+    <!-- Background color for the now home category -->
+    <color name="category_home">#424242</color>
+
     <!-- Background color for the now playing category -->
-    <color name="category_nowplaying">#212121</color>
+    <color name="category_playing">#212121</color>
 
     <!-- Background color for the artists category -->
     <color name="category_artists">#424242</color>
@@ -21,7 +24,13 @@
     <!-- Background color for the playlists category -->
     <color name="category_playlists">#424242</color>
 
-    <!-- Background color for the podcasts category -->
-    <color name="category_podcasts">#212121</color>
+    <!-- Background color for the radio category -->
+    <color name="category_radio">#212121</color>
+
+    <!--background color for the navigation bar -->
+    <color name="category_navbar">#424242</color>
+
+    <!--background color for the navigation bar -->
+    <color name="category_subscreen">#212121</color>
 
 </resources>

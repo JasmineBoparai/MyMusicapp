@@ -7,27 +7,28 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class PlayingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_now_playing);
 
-        TextView nowPlaying = (TextView) findViewById(R.id.playing);
+        TextView home = (TextView) findViewById(R.id.home);
 
         //Set a clicklistener on that view
-        nowPlaying.setOnClickListener(new View.OnClickListener() {
+        home.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                //create a new intent to open the {@link NowplayingActivity}
-                Intent nowPlayingIntent = new Intent(MainActivity.this, PlayingActivity.class);
+                //create a new intent to open the {@link HomeActivity}
+                Intent homeIntent = new Intent(PlayingActivity.this, MainActivity.class);
                 //start the new activity
-                startActivity(nowPlayingIntent);
-                Toast.makeText(view.getContext(), "Open music", Toast.LENGTH_SHORT).show();
+                startActivity(homeIntent);
+                Toast.makeText(view.getContext(), "Go to Home", Toast.LENGTH_SHORT).show();
             }
         });
+
 
         TextView artists = (TextView) findViewById(R.id.artists);
 
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //create a new intent to open the {@link ArtistsActivity}
-                Intent artistsIntent = new Intent(MainActivity.this, ArtistsActivity.class);
+                Intent artistsIntent = new Intent(PlayingActivity.this, ArtistsActivity.class);
                 //start the new activity
                 startActivity(artistsIntent);
                 Toast.makeText(view.getContext(), "Open list of artists", Toast.LENGTH_SHORT).show();
@@ -45,16 +46,15 @@ public class MainActivity extends AppCompatActivity {
 
         TextView albums = (TextView) findViewById(R.id.albums);
 
-        //Set a clicklistener on that view
         albums.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                //create a new intent to open the {@link AlbumsActivity}
-                Intent albumsIntent = new Intent(MainActivity.this, AlbumsActivity.class);
+                //create a new intent to open the {@link ArtistsActivity}
+                Intent albumsIntent = new Intent(PlayingActivity.this, AlbumsActivity.class);
                 //start the new activity
                 startActivity(albumsIntent);
-                Toast.makeText(view.getContext(), "Open list of albums", Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(), "Open list of artists", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -66,10 +66,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //create a new intent to open the {@link PlaylistsActivity}
-                Intent playlistsIntent = new Intent(MainActivity.this, PlaylistsActivity.class);
+                Intent playlistsIntent = new Intent(PlayingActivity.this, PlaylistsActivity.class);
                 //start the new activity
                 startActivity(playlistsIntent);
-                Toast.makeText(view.getContext(), "Open playlists", Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(), "Open current playlists", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -80,8 +80,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                //create a new intent to open the {@link PodcastsActivity}
-                Intent radioIntent = new Intent(MainActivity.this, RadioActivity.class);
+                //create a new intent to open the {@link RadioActivity}
+                Intent radioIntent = new Intent(PlayingActivity.this, RadioActivity.class);
                 //start the new activity
                 startActivity(radioIntent);
                 Toast.makeText(view.getContext(), "Open Radio", Toast.LENGTH_SHORT).show();

@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NowPlayingActivity"
+            android:name=".PlayingActivity"
             android:label="Now playing" />
         <activity
             android:name=".ArtistsActivity"
@@ -27,11 +27,9 @@
         <activity
             android:name=".PlaylistsActivity"
             android:label="Playlists" />
-        <activity
-            android:name=".PodcastsActivity"
-            android:label="Podcasts">
 
-        </activity>
+        <activity android:name=".RadioActivity" />
+        <activity android:name=".HomeActivity"></activity>
     </application>
 
 </manifest>
