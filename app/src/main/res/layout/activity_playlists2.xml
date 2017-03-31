@@ -81,8 +81,11 @@
             android:layout_height="wrap_content"
             style="@style/activityText"
             android:text="@string/playingActivity"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/playlists"/>
+
 
     </LinearLayout>
-
-
 </LinearLayout>

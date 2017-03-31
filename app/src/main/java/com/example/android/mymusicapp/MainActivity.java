@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         TextView nowPlaying = (TextView) findViewById(R.id.playing);
 
         //Set a clicklistener on that view
