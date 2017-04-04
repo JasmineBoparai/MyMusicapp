@@ -9,11 +9,11 @@
 
     <string name="requirementHeader">Requirements</string>
 
-    <string name="albumsActivity">1) View all albums\n\n2) The screen will display a list of albums \n\n3) The goal is to make screen similar to below image.</string>
-    <string name="artistsActivity">1) The screen will display artist information. \n\n2) The goal is to make screen similar to below image.</string>
-    <string name="playingActivity">1) View media player\n\n2) The goal is to make screen similar to below image.</string>
-    <string name="playlistsActivity">1) View current playlists\n\n2)The goal is to make screen similar to below image..</string>
-    <string name="radioActivity">1) View all radio stations\n\n2) The goal is to make screen similar to below image..</string>
+    <string name="albumsActivity">1) This class displays a list of albums for the user\n\n3) Uses ListView/Recycler view to show list of items</string>
+    <string name="artistsActivity">1) This class displays a list of artists for the user \n\n2) Uses ListView/Recycler view to show list of artists.</string>
+    <string name="playingActivity">1) This class displays media player for the user\n\n2) Screen showing current playing song. Uses MediaPlayer API.</string>
+    <string name="playlistsActivity">1) This class displays a list of tracks for the user\n\n2)Uses ListView/Recycler view to show list of tracks.</string>
+    <string name="radioActivity">1) This class displays a list of radio stations for the user. The user can click on the radio stations to start playing. The Spotify API or the Pandora API can be used to obtain the list of radio stations and play it for the user.</string>
 
 </resources>
 
